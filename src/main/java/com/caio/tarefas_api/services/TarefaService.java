@@ -1,4 +1,4 @@
-package com.caio.tarefas_api.service;
+package com.caio.tarefas_api.services;
 
 import com.caio.tarefas_api.dto.TarefaRequestDTO;
 import com.caio.tarefas_api.dto.TarefaResponseDTO;
