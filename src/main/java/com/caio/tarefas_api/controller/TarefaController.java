@@ -3,7 +3,7 @@ package com.caio.tarefas_api.controller;
 import com.caio.tarefas_api.dto.TarefaRequestDTO;
 import com.caio.tarefas_api.dto.TarefaResponseDTO;
 import com.caio.tarefas_api.model.StatusTarefa;
-import com.caio.tarefas_api.service.TarefaService;
+import com.caio.tarefas_api.services.TarefaService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
