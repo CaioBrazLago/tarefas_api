@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: tarefas_db
+    environment:
+      POSTGRES_DB: tarefas_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - tarefas_data:/var/lib/postgresql/data
+
+volumes:
+  tarefas_data:
